@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+FILE *ptr;
+int num;
+\\ C:"location of the file in your system"
+ptr=fopen("C:\\Users\\vijay\\OneDrive\\Desktop\\cfiles\\test.txt","w");
+scanf("%d",&num);
+fprintf(ptr,"%d",num);
+fclose(ptr);
+printf("files created successfuly");
+
+return 0;
+}
